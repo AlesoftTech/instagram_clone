@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:intragram_clone_by_alejo/feature/home/views/home_page_view.dart';
+import 'package:intragram_clone_by_alejo/feature/search/views/search_view.dart';
+import 'package:intragram_clone_by_alejo/feature/shop/views/shop_view.dart';
 
 class NavigationBar extends StatefulWidget {
   int indexTap;
@@ -14,15 +16,11 @@ class _NavigationBarState extends State<NavigationBar> {
 
   final List<Widget> widgetsChildren = [
     const HomePageView(),
-    Container(
-      color: Colors.red,
-    ),
+    const SearchView(),
     Container(
       color: Colors.green,
     ),
-    Container(
-      color: Colors.yellow,
-    ),
+    const ShopView(),
     Container(
       color: Colors.blue,
     ),

@@ -64,6 +64,7 @@ flutter:
     - assets/images/instagram_logo.png
     - assets/images/profile.jpg
     - assets/images/post_image.jpeg
+    - assets/images/cofi.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
